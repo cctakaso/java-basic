@@ -54,5 +54,6 @@ public class App {
         // --- 複数変数の宣言  ---
         int x = 5, y = 6, z = 50;
         System.out.println("x, y, z の値: " + x + ", " + y + ", " + z);
+
     }
 }

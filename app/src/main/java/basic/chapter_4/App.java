@@ -31,11 +31,19 @@ public class App {
         // 「数学」で、かつ、点数が60点以上なら「追試なし」
         if (subject.equals("Math") && score >= 60) {
             System.out.println("数学は合格です。");
+        }else{
+            System.out.println("数学は不合格です。");
         }
+        // 三項演算子を使った同じ条件の表現
+        System.out.println(subject.equals("Math") && score >= 60 ? "数学は合格です。" : "数学は不合格です。");
 
         // 点数が100点、または、0点だった場合に特別なメッセージを表示
         if (score == 100 || score == 0) {
             System.out.println("特徴的な点数です！");
+        }else{
+            System.out.println("通常の点数です。");
         }
+        // 三項演算子を使った同じ条件の表現
+        System.out.println(score == 100 || score == 0 ? "特徴的な点数です！" : "通常の点数です。");
     }
 }

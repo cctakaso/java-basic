@@ -1,5 +1,7 @@
 package basic.chapter_3;
 
+import java.util.Scanner;
+
 /**
  * 第3章: 計算と比較はお任せ！演算子と型キャスト
  *
@@ -45,5 +47,26 @@ public class App {
         count = 5; // リセット
         System.out.println("++count の評価値: " + (++count)); // 6 が表示される
         System.out.println("評価後のcount: " + count);      // 6 になっている
+
+
+        // --- キーボードからの入力  ---
+        // 1. キーボード入力を受け取る準備
+        Scanner scanner = new Scanner(System.in);
+
+        // 2. ユーザーに入力を促すメッセージを表示
+        System.out.print("あなたの名前を入力してください: "); // printはprintlnと違い改行しない
+
+        // 3. ユーザーが入力した文字列を受け取り、変数nameに保存
+        String name = scanner.nextLine();
+
+        // 4. 年齢の入力も受け取る
+        System.out.print("あなたの年齢を入力してください: ");
+        age = scanner.nextInt();
+
+        // 5. 受け取った情報を元にメッセージを表示
+        System.out.println("こんにちは、" + name + "さん！ あなたは" + age + "歳なのですね。");
+
+        // 6. Scannerを閉じる（リソースの解放）
+        scanner.close();
     }
 }
