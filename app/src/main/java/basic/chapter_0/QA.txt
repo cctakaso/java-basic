@@ -11,7 +11,8 @@ d. JDI
 答え：
 b
 解説：
-Javaプログラムを動かすには、JDK (Java Development Kit)という開発ツールが必要です。JDKには、コンパイラと実行環境が含まれています。
+Javaプログラムを動かすには、JDK (Java Development Kit)という開発ツールが必要です。
+JDKには、コンパイラと実行環境が含まれています。
 
 -------------------------------------------------------------------------------
 Q02. ソースコードをコンパイルするために使用するコマンドは何ですか？
@@ -70,4 +71,5 @@ public class App {
 }
 ```
 解説：
-`main`メソッド内に`System.out.println("Hello World");`と記述することで、コンソールに"Hello World"と出力できます。
+`main`メソッド内に`System.out.println("Hello World");`と記述することで、
+コンソールに"Hello World"と出力できます。
