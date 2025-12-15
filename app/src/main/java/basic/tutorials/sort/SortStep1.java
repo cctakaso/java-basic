@@ -1,7 +1,8 @@
 package basic.tutorials.sort;
 
-public class SortUtils {
+import java.util.Scanner;
 
+public class SortStep1 {
     /**
      * 1からsizeまでの連続値をシャッフルしてsize個の要素を持つ整数配列を作成します。
      * (フィッシャー・イェーツのシャッフルアルゴリズム)
@@ -24,27 +25,13 @@ public class SortUtils {
         return array;
     }
 
-    /**
-     * 整数配列をアスタリスク(*)を使用した縦方向の棒グラフとして表示します。
-     * @param array 表示する整数配列
-     */
-    public static void displayData(int[] array) {
-        int max = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > max) {
-                max = array[i];
-            }
-        }
+    public static void main(String[] args) {
+        // 1. 試験データの作成
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("試験データ数を入力してください (10〜100程度) > ");
+        int n = scanner.nextInt();
+        int[] originalData = createTestData(n);
 
-        for (int i = max; i > 0; i--) {
-            for (int j = 0; j < array.length; j++) {
-                if (array[j] >= i) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            System.out.println();
-        }
+        scanner.close();
     }
 }
