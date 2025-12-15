@@ -21,6 +21,9 @@ public class NQueensStep2 {
         int n = board.length;
 
         // 1. 同じ「列」を上にチェック
+        //. ? Q ? . . . . 
+        //Q ? . ? . . . . 
+        //. Q . Q . . . . 
         for (int i = 0; i < row; i++) {
             if (board[i][col] == 1) {
                 return false; // 既に女王がいる
@@ -28,6 +31,9 @@ public class NQueensStep2 {
         }
 
         // 2. 「左上」の斜めをチェック
+        //. ? Q . . . . . 
+        //Q . ? . . . . . 
+        //. Q . Q . . . . 
         for (int i = row, j = col; i >= 0 && j >= 0; i--, j--) {
             if (board[i][j] == 1) {
                 return false;
@@ -35,6 +41,9 @@ public class NQueensStep2 {
         }
 
         // 3. 「右上」の斜めをチェック
+        //. . Q ? . ? . . 
+        //Q . ? . ? . . . 
+        //. Q . Q . . . . 
         for (int i = row, j = col; i >= 0 && j < n; i--, j++) {
             if (board[i][j] == 1) {
                 return false;
@@ -52,6 +61,9 @@ public class NQueensStep2 {
         // 手動で女王を配置
         board[0][2] = 1;
         board[1][0] = 1;
+        //. . Q . . . . . 
+        //Q . . . . . . . 
+        //. . . . . . . . 
 
         System.out.println("--- 現在の盤面 ---");
         NQueensStep1.printBoard(board); // ステップ1のメソッドを再利用
