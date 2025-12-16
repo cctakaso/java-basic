@@ -6,6 +6,17 @@ public class SortStep2 {
     /**
      * 整数配列をアスタリスク(*)を使用した縦方向の棒グラフとして表示します。
      * @param array 表示する整数配列
+     * --- Original Data ---
+     *      *    
+     *  *   *    
+     * **   *    
+     * **   *  * 
+     * **  **  * 
+     * *** **  * 
+     * *** ** ** 
+     * ****** ** 
+     * ****** ***
+     * **********
      */
     public static void displayData(int[] array) {
         int max = 0;
