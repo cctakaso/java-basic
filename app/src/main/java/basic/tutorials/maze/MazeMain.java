@@ -2,7 +2,7 @@ package basic.tutorials.maze;
 
 import java.util.Scanner;
 
-public class Test {
+public class MazeMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("--- 3つの探索アルゴリズムの比較 ---");
