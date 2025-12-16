@@ -15,8 +15,8 @@ public class SortStep1 {
         }
 
         // 配列をシャッフルする
-        for (int i = array.length - 1; i > 0; i--) {
-            int index = (int) (Math.random() * (i + 1));
+        for (int i = 0; i < array.length; i++) {
+            int index = (int) (Math.random() * (array.length-1));
             // 要素を交換
             int temp = array[i];
             array[i] = array[index];
