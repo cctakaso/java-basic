@@ -23,15 +23,6 @@ public class App {
     // `main` メソッドは、プログラムを実行したときに最初に呼び出される特別な玄関口です。
     // public static void main(String[] args) { ... } はお決まりの形として覚えましょう。
     public static void main(String[] args) {
-
-        // System.out.println() は、()の中の文字列を画面に表示して改行する命令です。
-        // 命令文 (ステートメント) の最後には、必ずセミコロン(;)を付けます。
         System.out.println("Hello, Java World!"); // "Hello, Java World!"と表示
-
-        /*
-         * このように、／＊（半角） と ＊／（半角） で囲むと、
-         * 複数行にわたってコメントを書くことができます。
-         * コメントはプログラムの動作に影響を与えません。
-         */
     }
 }

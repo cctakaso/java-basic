@@ -14,7 +14,6 @@ public class App {
     public static void main(String[] args) {
 
         // --- 基本データ型の紹介 ---
-        // 副読本 p.7
         // int: 整数型 (32ビット)
         int age = 25;
 

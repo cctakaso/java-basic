@@ -10,8 +10,7 @@ package basic.chapter_5;
  */
 public class App {
 
-    // 副読本 p.18
-    // 曜日を表現するためのenum (列挙型) を定義
+    // 曜日を表現するためのenum (列挙型) を定義（← 但し、オブジェクト指向設計編で学びます）
     public enum DayOfWeek { SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY }
 
     public static void main(String[] args) {

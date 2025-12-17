@@ -20,11 +20,21 @@ public class App {
         }
 
         // --- breakとcontinue ---
-        System.out.println("\n--- 1から10までの偶数のみ表示 (continue/break) ---");
-        for (int i = 1; i <= 20; i++) {
-            if (i > 10) {
+        System.out.println("\n--- while文: 1から10までの偶数のみ表示 (continue/break) ---");
+        int count = 1;
+        while (count++ < 20) {
+            if (count > 10) {
                 break; // 10を超えたらループを終了
             }
+            if (count % 2 != 0) { // 奇数なら
+                continue; // スキップ
+            }
+            System.out.print(count + " ");
+        }
+        System.out.println(); // 改行
+
+        System.out.println("\n--- for文: 1から10までの偶数のみ表示 (continue/break) ---");
+        for (int i = 1; i <= 10; i++) {
             if (i % 2 != 0) { // 奇数なら
                 continue; // スキップ
             }
