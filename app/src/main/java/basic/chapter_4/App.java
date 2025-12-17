@@ -42,7 +42,8 @@ public class App {
             System.out.println("通常の点数です。");
         }
         // 三項演算子を使った同じ条件の表現
-        System.out.println(score == 100 || score == 0 ? "特徴的な点数です！" : "通常の点数です。");
+        System.out.println(score == 100 || score == 0 ? 
+            "特徴的な点数です！" : "通常の点数です。");
 
         // 点数が50点以上60点以下なら「追試」
         if (50 <= score && score < 60) {
@@ -53,7 +54,8 @@ public class App {
             System.out.println("数学は合格です。");
         }
         // 三項演算子を使った同じ条件の表現
-        System.out.println(50 <= score && score < 60 ? "数学は追試です。" : score < 50 ? "数学は不合格です。": "数学は合格です。");
+        System.out.println(50 <= score && score < 60 ? 
+            "数学は追試です。" : score < 50 ? "数学は不合格です。": "数学は合格です。");
 
     }
 }
