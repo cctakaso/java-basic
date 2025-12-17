@@ -31,12 +31,6 @@ public class App {
         boolean canDrive = (age >= 20) && (hasLicense == true);
         System.out.println("運転できますか？ " + canDrive);
 
-        // --- 三項演算子  ---
-        // (条件式) ? (trueの場合の値) : (falseの場合の値)
-        // 上の canDrive の結果を使ってメッセージを切り替える
-        String message = canDrive ? "運転できます。" : "運転できません。";
-        System.out.println(message);
-
         // --- インクリメント・デクリメント演算子  ---
         int count = 5;
         // 後置インクリメント: 式を評価した後に1を足す
