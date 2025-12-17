@@ -11,13 +11,21 @@ package basic.chapter_5;
 public class App {
 
     // 曜日を表現するためのenum (列挙型) を定義（← 但し、オブジェクト指向設計編で学びます）
-    public enum DayOfWeek { SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY }
+    public enum DayOfWeek {
+        SUNDAY,
+        MONDAY,
+        TUESDAY,
+        WEDNESDAY,
+        THURSDAY,
+        FRIDAY,
+        SATURDAY
+    };
 
     public static void main(String[] args) {
 
         // --- 基本的なint型を使ったswitch文 ---
         int commandNum = 1;
-        System.out.println("コマンド: " + commandNum);
+        System.out.println("\nコマンド: " + commandNum);
         switch (commandNum) {
             case 0:
                 System.out.println("音楽を停止します。");
@@ -32,7 +40,7 @@ public class App {
 
         // --- 基本的なString型を使ったswitch文 ---
         String command = "play";
-        System.out.println("コマンド: " + command);
+        System.out.println("\nコマンド: " + command);
         switch (command) {
             case "stop":
                 System.out.println("音楽を停止します。");
@@ -64,9 +72,11 @@ public class App {
 
         // --- 新しいswitch式 (アロー構文, Java 14+)  ---
         // breakが不要になり、より簡潔に書ける。
-        System.out.println("\n(アロー構文) 今日は...");
+        System.out.println("\n(アロー構文)");
+        System.out.println("今日は " + today + " です。");
         switch (today) {
-            case MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY -> System.out.println("平日です。");
+            case MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY
+                -> System.out.println("平日です。");
             case SATURDAY, SUNDAY -> System.out.println("休日です。");
         }
     }
