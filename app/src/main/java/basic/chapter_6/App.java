@@ -11,29 +11,24 @@ package basic.chapter_6;
 public class App {
 
     public static void main(String[] args) {
-        // --- 拡張for文 (for-each) による配列の処理 ---
-        System.out.println("--- 拡張for文 ---");
-        // 配列の宣言と初期化 
-        String[] languages = {"Java", "Python", "JavaScript"};
-        for (String lang : languages) {
-            System.out.println("言語: " + lang);
-        }
-
-        // --- breakとcontinue ---
+        // --- while文：continue ---
         System.out.println("\n--- while文: 1から10までの偶数のみ表示 (continue/break) ---");
-        int count = 1;
-        while (count++ < 20) {
-            if (count > 10) {
-                break; // 10を超えたらループを終了
-            }
-            if (count % 2 != 0) { // 奇数なら
+        int [] numbers = {5,2,4,1,5,6,7,12,3,9,8,10,12,0,11}; // 配列の宣言と初期化
+        int k = 0;
+        while (k < numbers.length) {
+            if (numbers[k] == 0) { // 0なら
+                break; // ループ終了
+            }else if (numbers[k] % 2 != 0 || numbers[k]>10) { // 奇数、または10以上なら
+                k++;
                 continue; // スキップ
             }
-            System.out.print(count + " ");
+            System.out.print(numbers[k] + " ");
+            k++;
         }
         System.out.println(); // 改行
 
-        System.out.println("\n--- for文: 1から10までの偶数のみ表示 (continue/break) ---");
+        // --- for文 ---
+        System.out.println("\n--- for文: 1から10までの偶数のみ表示 (continue) ---");
         for (int i = 1; i <= 10; i++) {
             if (i % 2 != 0) { // 奇数なら
                 continue; // スキップ
@@ -41,6 +36,14 @@ public class App {
             System.out.print(i + " ");
         }
         System.out.println(); // 改行
+
+        // --- 拡張for文 による配列の処理 ---
+        System.out.println("\n--- 拡張for文 ---");
+        // 配列の宣言と初期化 
+        String[] languages = {"Java", "Python", "JavaScript"};
+        for (String lang : languages) {
+            System.out.println("言語: " + lang);
+        }
 
         // --- 二重ループと多重配列  ---
         System.out.println("\n--- 九九の表 (二重ループ) ---");
