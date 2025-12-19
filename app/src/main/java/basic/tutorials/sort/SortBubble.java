@@ -10,7 +10,7 @@ package basic.tutorials.sort;
  * 4. 走査範囲を狭め（末尾のソート済み要素を除く）、1〜3の処理を繰り返す。
  * これを配列全体がソート済みになるまで続ける。
  */
-public class BubbleSort {
+public class SortBubble {
 
     /**
      * バブルソートアルゴリズムを使用して整数配列をソートします。

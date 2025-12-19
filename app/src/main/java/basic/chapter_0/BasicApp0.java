@@ -18,7 +18,7 @@ package basic.chapter_0;
  */
 // public class クラス名 { ... } というのがJavaプログラムの基本単位です。
 // クラス名はファイル名 (0-App.java) と一致させる必要があります。
-public class App0 {
+public class BasicApp0 {
 
     // `main` メソッドは、プログラムを実行したときに最初に呼び出される特別な玄関口です。
     // public static void main(String[] args) { ... } はお決まりの形として覚えましょう。

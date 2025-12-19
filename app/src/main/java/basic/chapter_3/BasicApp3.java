@@ -10,7 +10,7 @@ import java.util.Scanner;
  * - 異なるデータ型間の計算ルールである「型キャスト」。
  * - if文の簡易版として使える「三項演算子」  。
  */
-public class App3 {
+public class BasicApp3 {
 
     public static void main(String[] args) {
         // --- 算術演算子と型キャスト ---

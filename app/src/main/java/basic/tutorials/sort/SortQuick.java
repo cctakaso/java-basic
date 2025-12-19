@@ -11,7 +11,7 @@ package basic.tutorials.sort;
  * この処理を繰り返すことで、最終的に配列全体がソートされる。
  * ピボットの選択方法や分割の実装方法によって、パフォーマンスが変動する特性がある。
  */
-public class QuickSort {
+public class SortQuick {
 
     /**
      * クイックソートアルゴリズムを使用して整数配列をソートします。

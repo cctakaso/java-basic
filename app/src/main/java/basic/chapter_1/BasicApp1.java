@@ -10,7 +10,7 @@ package basic.chapter_1;
  * 3. System.out.println()で文字列を画面に表示する方法。
  * 4. 一行コメントと複数行コメントの使い方。
  */
-public class App1 {
+public class BasicApp1 {
 
     public static void main(String[] args) {
         // --- 画面への出力 ---

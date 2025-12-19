@@ -11,7 +11,7 @@ package basic.tutorials.sort;
  *    マージ処理では、2つの部分配列の先頭要素を比較し、小さい方から順に新しい配列に格納していく。
  * この再帰的な分割と結合を繰り返すことで、最終的に配列全体がソートされる。
  */
-public class MergeSort {
+public class SortMerge {
 
     /**
      * マージソートアルゴリズムを使用して整数配列をソートします。

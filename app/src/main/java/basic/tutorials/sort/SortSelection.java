@@ -10,7 +10,7 @@ package basic.tutorials.sort;
  * 4. 未ソート部分の範囲を一つ狭め、1〜3の処理を繰り返す。
  * これを配列のすべての要素がソート済みになるまで続けることで、全体のソートが完了する。
  */
-public class SelectionSort {
+public class SortSelection {
 
     /**
      * 選択ソートアルゴリズムを使用して整数配列をソートします。

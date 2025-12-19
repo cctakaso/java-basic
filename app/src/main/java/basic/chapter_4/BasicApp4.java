@@ -9,7 +9,7 @@ import java.util.Scanner;
  * - 複数の条件を組み合わせる方法（論理演算子の活用）。
  * - 必ず `{}` を付けるというコーディングスタイル 
  */
-public class App4 {
+public class BasicApp4 {
 
     public static void main(String[] args) {
         // --- キーボードからの入力  ---
