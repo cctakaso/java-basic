@@ -18,7 +18,7 @@ public class SortStep3 {
      * 4. 未ソート部分の範囲を一つ狭め、1〜3の処理を繰り返す。
      * これを配列のすべての要素がソート済みになるまで続けることで、全体のソートが完了する。
      */
-    public static int[] SelectionSort(int[] array) {
+    public static int[] SortSelection(int[] array) {
         // 配列の左端から順に、各位置に収まるべき要素を選択していく
         for (int i = 0; i < array.length - 1; i++) {
             // 未ソート部分の先頭を、仮の最小値のインデックスとする
@@ -54,11 +54,11 @@ public class SortStep3 {
         // 3. 各アルゴリズムで、ソートの実行と結果表示
         // --- 選択ソート ---
         System.out.println("--- Selection Sort ---");
-        int[] selectionSortData = originalData.clone();
+        int[] SortSelectionData = originalData.clone();
         long startTime = System.nanoTime();
-        SelectionSort(selectionSortData);
+        SortSelection(SortSelectionData);
         long endTime = System.nanoTime();
-        SortStep2.displayData(selectionSortData);
+        SortStep2.displayData(SortSelectionData);
         System.out.println("Execution Time: " + (endTime - startTime)/1000 + " ms");
         System.out.println();
 

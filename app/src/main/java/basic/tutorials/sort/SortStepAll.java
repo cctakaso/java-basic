@@ -20,11 +20,11 @@ public class SortStepAll {
         // 3. 各アルゴリズムで、ソートの実行と結果表示
         // --- 選択ソート ---
         System.out.println("--- Selection Sort ---");
-        int[] selectionSortData = originalData.clone();
+        int[] SortSelectionData = originalData.clone();
         long startTime = System.nanoTime();
-        SortStep3.SelectionSort(selectionSortData);
+        SortStep3.SortSelection(SortSelectionData);
         long endTime = System.nanoTime();
-        SortStep2.displayData(selectionSortData);
+        SortStep2.displayData(SortSelectionData);
         System.out.println("Execution Time: " + (endTime - startTime)/1000 + " ms");
         System.out.println();
 
@@ -33,9 +33,9 @@ public class SortStepAll {
         System.out.println("--- Bubble Sort ---");
         int[] bubbleSortData = originalData.clone();
         startTime = System.nanoTime();
-        BubbleSort.sort(bubbleSortData);
+        SortBubble.sort(bubbleSortData);
         endTime = System.nanoTime();
-        SortStep2.displayData(selectionSortData);
+        SortStep2.displayData(SortSelectionData);
         System.out.println("Execution Time: " + (endTime - startTime)/1000 + " ms");
         System.out.println();
 
@@ -43,9 +43,9 @@ public class SortStepAll {
         System.out.println("--- Merge Sort ---");
         int[] mergeSortData = originalData.clone();
         startTime = System.nanoTime();
-        MergeSort.sort(mergeSortData);
+        SortMerge.sort(mergeSortData);
         endTime = System.nanoTime();
-        SortStep2.displayData(selectionSortData);
+        SortStep2.displayData(SortSelectionData);
         System.out.println("Execution Time: " + (endTime - startTime)/1000 + " ms");
         System.out.println();
 
@@ -53,9 +53,9 @@ public class SortStepAll {
         System.out.println("--- Quick Sort ---");
         int[] quickSortData = originalData.clone();
         startTime = System.nanoTime();
-        QuickSort.sort(quickSortData);
+        SortQuick.sort(quickSortData);
         endTime = System.nanoTime();
-        SortStep2.displayData(selectionSortData);
+        SortStep2.displayData(SortSelectionData);
         System.out.println("Execution Time: " + (endTime - startTime)/1000 + " ms");
         System.out.println();
 
