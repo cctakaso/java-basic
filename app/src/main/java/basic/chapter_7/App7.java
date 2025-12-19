@@ -8,7 +8,7 @@ package basic.chapter_7;
  * - メソッド化によるコードの再利用性と可読性の向上。
  * - メソッドが自身を呼び出す「再帰呼び出し」  。
  */
-public class App {
+public class App7 {
 
     // mainメソッドから各種メソッドを呼び出す
     public static void main(String[] args) {

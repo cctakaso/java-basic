@@ -9,7 +9,7 @@ package basic.chapter_2;
  * - finalを使った定数の定義 
  * - 変数が使える範囲である「スコープ」の概念 
  */
-public class App {
+public class App2 {
 
     public static void main(String[] args) {
 

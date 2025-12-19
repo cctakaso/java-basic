@@ -8,7 +8,7 @@ package basic.chapter_6;
  * - ループを制御する break と continue。
  * - 多重配列と、それを行列として扱うための二重ループ  。
  */
-public class App {
+public class App6 {
 
     public static void main(String[] args) {
         // --- while文：continue ---
