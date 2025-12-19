@@ -10,8 +10,8 @@ package basic.chapter_0;
  * 4. コードにメモを残すコメントの書き方。
  *
  * 【実行方法】
- * 1. コンパイル: javac app/src/main/java/basic/chapter_0/App.java
- * 2. 実行: java -cp app/src/main/java/ basic/chapter_0/App
+ * 1. コンパイル: javac app/src/main/java/basic/chapter_0/BasicApp0.java
+ * 2. 実行: java -cp app/src/main/java/ basic/chapter_0/BasicApp0
  *
  * 【期待される出力】
  * Hello, Java World!
