@@ -1,4 +1,4 @@
-package basic.chapter_3;
+package basic.b_chapter_3;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ import java.util.Scanner;
  * - 異なるデータ型間の計算ルールである「型キャスト」。
  * - if文の簡易版として使える「三項演算子」  。
  */
-public class BasicApp3 {
+public class App {
 
     public static void main(String[] args) {
         // --- 算術演算子と型キャスト ---

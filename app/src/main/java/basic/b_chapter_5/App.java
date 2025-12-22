@@ -1,4 +1,4 @@
-package basic.chapter_5;
+package basic.b_chapter_5;
 
 /**
  * 第5章: もう一つの選択肢！スマートな分岐 switch文
@@ -8,7 +8,7 @@ package basic.chapter_5;
  * - enum型と組み合わせた使い方 
  * - 新しいswitch式 (アロー構文, Java 14+) 
  */
-public class BasicApp5 {
+public class App {
 
     // 曜日を表現するためのenum (列挙型) を定義（← 但し、オブジェクト指向設計編で学びます）
     public enum DayOfWeek {

@@ -1,4 +1,4 @@
-package basic.chapter_7;
+package basic.b_chapter_7;
 
 /**
  * 第7章: コードを整理整頓！再利用できる部品「メソッド」
@@ -8,7 +8,7 @@ package basic.chapter_7;
  * - メソッド化によるコードの再利用性と可読性の向上。
  * - メソッドが自身を呼び出す「再帰呼び出し」  。
  */
-public class BasicApp7 {
+public class App {
 
     // mainメソッドから各種メソッドを呼び出す
     public static void main(String[] args) {

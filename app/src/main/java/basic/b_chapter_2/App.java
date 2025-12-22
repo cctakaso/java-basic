@@ -1,4 +1,4 @@
-package basic.chapter_2;
+package basic.b_chapter_2;
 
 /**
  * 第2章: データを入れる魔法の箱！変数とデータ型
@@ -9,7 +9,7 @@ package basic.chapter_2;
  * - finalを使った定数の定義 
  * - 変数が使える範囲である「スコープ」の概念 
  */
-public class BasicApp2 {
+public class App {
 
     public static void main(String[] args) {
 

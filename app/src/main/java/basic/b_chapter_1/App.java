@@ -1,4 +1,4 @@
-package basic.chapter_1;
+package basic.b_chapter_1;
 
 /**
  * 第1章: Javaの世界へようこそ！
@@ -10,7 +10,7 @@ package basic.chapter_1;
  * 3. System.out.println()で文字列を画面に表示する方法。
  * 4. 一行コメントと複数行コメントの使い方。
  */
-public class BasicApp1 {
+public class App {
 
     public static void main(String[] args) {
         // --- 画面への出力 ---

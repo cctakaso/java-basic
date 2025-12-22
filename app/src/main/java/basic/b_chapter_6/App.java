@@ -1,4 +1,4 @@
-package basic.chapter_6;
+package basic.b_chapter_6;
 
 /**
  * 第6章: 面倒な作業は自動化！ループ処理 for, while
@@ -8,7 +8,7 @@ package basic.chapter_6;
  * - ループを制御する break と continue。
  * - 多重配列と、それを行列として扱うための二重ループ  。
  */
-public class BasicApp6 {
+public class App {
 
     public static void main(String[] args) {
         // --- while文：continue ---
