@@ -1,4 +1,4 @@
-package basic.tutorials.maze;
+package basic.b_tutorials.maze;
 /*
  * クルスカル法による迷路生成アルゴリズムの実装
  * グラフ理論におけるクルスカル法（Kruskal's Algorithm）を用いて、

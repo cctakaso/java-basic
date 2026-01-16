@@ -1,4 +1,4 @@
-package basic.tutorials.maze;
+package basic.b_tutorials.maze;
 
 /*
  * ステップ2: 幅優先探索 (BFS) による迷路の解法

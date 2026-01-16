@@ -1,4 +1,4 @@
-package basic.tutorials.sort;
+package basic.b_tutorials.sort;
 
 /**
  * クイックソート (Quick Sort)

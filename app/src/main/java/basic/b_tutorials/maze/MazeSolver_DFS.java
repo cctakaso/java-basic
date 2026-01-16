@@ -1,4 +1,4 @@
-package basic.tutorials.maze;
+package basic.b_tutorials.maze;
 
 /*
  * 深さ優先探索 (DFS) による迷路解法

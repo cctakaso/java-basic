@@ -1,4 +1,4 @@
-package basic.tutorials.maze;
+package basic.b_tutorials.maze;
 
 public class MazeSolver_BFS_Basic {
    

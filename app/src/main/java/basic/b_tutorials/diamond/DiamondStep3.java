@@ -1,4 +1,4 @@
-package basic.tutorials.diamond;
+package basic.b_tutorials.diamond;
 
 import java.util.Scanner;
 

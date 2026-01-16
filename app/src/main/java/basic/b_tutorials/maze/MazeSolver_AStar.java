@@ -1,4 +1,4 @@
-package basic.tutorials.maze;
+package basic.b_tutorials.maze;
 
 /*
  * ステップ3: A*探索による迷路の解法

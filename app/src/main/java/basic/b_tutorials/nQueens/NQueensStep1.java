@@ -1,4 +1,4 @@
-package basic.tutorials.nQueens;
+package basic.b_tutorials.nQueens;
 
 import java.util.Scanner;
 
