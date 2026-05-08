@@ -4,7 +4,7 @@ This project serves as a collection of educational Java basic examples and sampl
 
 # udemy education program
 「元Microsoftエンジニア直伝｜AI時代に通用するJavaの本質とプロの設計思考 入門編」
-https://www.udemy.com/course/og-java-basic/
+*  https://www.udemy.com/course/og-java-basic/
 
 ## Features
 
