@@ -3,7 +3,7 @@
 This project serves as a collection of educational Java basic examples and sample applications. It's designed to help users learn and understand fundamental Java programming concepts through various practical implementations.
 
 # udemy education program
-「元Microsoftエンジニア直伝｜AI時代に通用するJavaの本質とプロの設計思考 入門編」
+「AI時代に通用するJavaの本質とプロの設計思考 入門編」
 *  https://www.udemy.com/course/og-java-basic/
 
 ## Features
